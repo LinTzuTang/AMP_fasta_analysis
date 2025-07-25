@@ -21,6 +21,16 @@ The datasets used in this analysis are in FASTA format, downloaded from:
 - **Clustering:** K-means clustering for peptide grouping.
 - **Classification:** Logistic regression with metrics evaluation (accuracy, precision, recall, confusion matrix).
 
+## Visualizations
+
+The notebook generates the following visualizations:
+
+1. **Histogram of Sequence Lengths:** Shows a skewed distribution, with most peptides under 40 residues.
+2. **Boxplot & Violin Plot:** Provide summary statistics and density estimation of peptide lengths.
+3. **Amino Acid Composition:** Displays the frequency of each amino acid across the AMP dataset.
+4. **Correlation Matrix:** Reveals relationships between descriptors such as charge, molecular weight, and hydrophobicity.
+5. **Library Comparison Charts:** Includes global descriptors across two peptide libraries (charge, hydrophobicity, etc.)
+
 ## Requirements
 
 Install dependencies using:
@@ -29,16 +39,15 @@ Install dependencies using:
 pip install pandas biopython modlamp seaborn scikit-learn matplotlib
 ```
 
+
 ## How to Use
 
 1. Clone this repository and open the notebook:
 
 ```bash
-git clone https://github.com/your-username/antimicrobial-peptides-analysis.git
-cd antimicrobial-peptides-analysis
+git clone https://github.com/LinTzuTang/AMP_fasta_analysis.git
 jupyter notebook "Antimicrobial Peptides Sequence Data Analysis.ipynb"
 ```
-
 2. Place the downloaded `APD3.fasta` and `DBAASP.fasta` in the same directory.
 3. Run all cells to process the data and visualize the results.
 
@@ -50,4 +59,19 @@ jupyter notebook "Antimicrobial Peptides Sequence Data Analysis.ipynb"
 
 ## Author
 
+**Tzutang Lin**
+
 This notebook was developed for academic and research purposes.
+
+
+## Report Document
+
+A comprehensive Word report is included in this repository:
+
+📄 **AMP_Sequence_Data_Analysis_Visual_Report.docx**  
+This document summarizes key analysis results and visualizations, including:
+- Distribution plots of sequence lengths
+- Amino acid composition bar chart
+- Correlation matrix of descriptors
+- Comparative analysis across peptide libraries
+
