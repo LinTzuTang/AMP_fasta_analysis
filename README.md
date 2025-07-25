@@ -68,7 +68,7 @@ This notebook was developed for academic and research purposes.
 
 A comprehensive Word report is included in this repository:
 
-📄 **AMP_Sequence_Data_Analysis_Visual_Report.pdf**  
+📄 [**AMP_Sequence_Data_Analysis_Visual_Report.pdf**](./AMP_Sequence_Data_Analysis_Visual_Report.pdf) 
 This document summarizes key analysis results and visualizations, including:
 - Distribution plots of sequence lengths
 - Amino acid composition bar chart
