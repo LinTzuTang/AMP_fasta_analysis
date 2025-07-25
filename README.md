@@ -39,7 +39,6 @@ Install dependencies using:
 pip install pandas biopython modlamp seaborn scikit-learn matplotlib
 ```
 
-
 ## How to Use
 
 1. Clone this repository and open the notebook:
@@ -48,6 +47,7 @@ pip install pandas biopython modlamp seaborn scikit-learn matplotlib
 git clone https://github.com/LinTzuTang/AMP_fasta_analysis.git
 jupyter notebook "Antimicrobial Peptides Sequence Data Analysis.ipynb"
 ```
+
 2. Place the downloaded `APD3.fasta` and `DBAASP.fasta` in the same directory.
 3. Run all cells to process the data and visualize the results.
 
@@ -63,15 +63,18 @@ jupyter notebook "Antimicrobial Peptides Sequence Data Analysis.ipynb"
 
 This notebook was developed for academic and research purposes.
 
-
 ## Report Document
 
 A comprehensive Word report is included in this repository:
 
-📄 [**AMP_Sequence_Data_Analysis_Visual_Report.pdf**](./AMP_Sequence_Data_Analysis_Visual_Report.pdf) 
+📄 [**AMP_Sequence_Data_Analysis_Visual_Report.pdf**](./AMP_Sequence_Data_Analysis_Visual_Report.pdf)
 This document summarizes key analysis results and visualizations, including:
+
 - Distribution plots of sequence lengths
 - Amino acid composition bar chart
 - Correlation matrix of descriptors
 - Comparative analysis across peptide libraries
 
+![ ](.figs/Picture1.png)
+![ ](.figs/Picture2.png)
+![ ](.figs/Picture3.png)
