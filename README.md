@@ -75,6 +75,6 @@ This document summarizes key analysis results and visualizations, including:
 - Correlation matrix of descriptors
 - Comparative analysis across peptide libraries
 
-![ ](.figs/Picture1.png)
-![ ](.figs/Picture2.png)
-![ ](.figs/Picture3.png)
+![ ](figs/Picture1.png)
+![ ](figs/Picture2.png)
+![ ](figs/Picture3.png)
